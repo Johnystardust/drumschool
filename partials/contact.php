@@ -1,9 +1,11 @@
 <div id="contact" class="container-fluid white">
     <div class="row no-margin">
+        <!-- Google Maps -->
         <div class="col-md-6 maps">
             <div id="map-canvas"></div>
         </div>
 
+        <!-- Contact Form -->
         <div class="col-md-6 contact-form">
             <form method="post" name="contactform" action="emailForm.php">
                 <div class="tag-line">
