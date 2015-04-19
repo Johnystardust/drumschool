@@ -1,0 +1,341 @@
+html
+  width: 100%
+body
+  width: 100%
+  overflow-x: hidden
+
+.row
+  height: 100%
+
+
+//  MISC
+*
+  margin: 0
+  padding: 0
+.fixed
+  position: fixed
+
+.no-margin
+  margin: 0 !important
+.no-padding
+  padding: 0 !important
+
+
+
+//  TYPO
+h1
+  color: #ffffff
+h2
+  color: #ffffff
+p
+  color: #ffffff
+  font-size: 1em
+  line-height: 1.5em
+span
+  color: #ffffff
+label
+  font-size: 1em !important
+  font-weight: normal
+  color: #000000
+a
+  color: #000000
+a:hover
+  color: #c30000
+ul
+  list-style-type: none
+
+.white
+  h2
+    color: #000000
+  p
+    color: #000000
+  span
+    color: #000000
+
+
+
+//  NAV
+nav
+  background-color: #ffffff
+  box-shadow: 1px 1px 5px #444444
+  height: 65px
+  width: 100%
+  border-radius: 0px
+  margin-top: 0px
+  z-index: 10000
+  .container-fluid
+    padding-left: 0px
+  .navbar-nav
+    height: 65px
+    li
+      height: 65px
+      display: table
+      a
+        display: table-cell
+        vertical-align: middle
+        text-transform: uppercase
+      a:hover
+        background-color: darkgrey
+  .container
+    height: 100%
+  .navbar-brand
+    position: relative
+    //margin-top: 5px
+  a
+    color: #000000
+    font-size: 1.1em
+    font-weight: 300
+.navbar-brand
+  padding: 0
+
+//  SCROLL UP
+#scroll-up
+  height: 35px
+  width: 35px
+  position: fixed
+  right: 20px
+  bottom: 20px
+  border: 2px solid darkgrey
+  border-radius: 4px
+  z-index: 10000
+  text-align: center
+  display: table
+  a
+    display: table-cell
+    vertical-align: middle
+    color: darkgrey
+#scroll-up:hover
+  border-color: #c30000
+  a
+    color: #c30000
+
+
+// INTRO
+#intro
+  background-image: url("../../images/backgrounds_optimized/DSC_0230.jpg")
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  background-position: center
+  border-bottom: 20px solid #ffffff
+  .intro-wrapper
+    width: 100%
+    height: 100%
+    display: table
+  .banner-wrapper
+    width: 100%
+    height: 200px
+    display: table-cell
+    vertical-align: middle
+  .banner-band
+    width: 100%
+    padding-top: 20px
+    padding-bottom: 20px
+    background-color: rgba(0, 0, 0, 0.7)
+  .banner-logo
+    width: 50%
+    height: 200px
+    margin: 0 auto
+    position: relative
+    .banner-slide-wrapper
+      width: 100%
+      height: 100%
+      position: absolute
+      overflow: hidden
+      ul
+        height: 100%
+        li
+          height: 100%
+  .banner-menu
+    ul
+      list-style-type: none
+      margin: 0 auto
+      padding-top: 20px
+      width: 50px
+      height: 40px
+      li
+        height: 20px
+        width: 20px
+        float: left
+      i
+        color: #ffffff
+      li:last-child
+        margin-left: 10px
+
+
+
+//  LESSONS
+#lessons
+  background-image: url("../../images/backgrounds_optimized/DSC_0171.jpg")
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  background-position: center
+  p
+    text-shadow: #080808 1px 1px 2px
+
+//  INFO
+#info
+  .col-md-4
+    padding-bottom: 20px
+    padding-top: 20px
+    padding-left: 0px
+    padding-right: 0px
+    min-height: 302px
+    height: 100%
+  .middle
+    border-left: 1px solid darkgrey
+    border-right: 1px solid darkgrey
+  .info-wrapper
+    width: 100%
+    min-height: 262px
+    display: table
+.tile-timer-wrapper
+  width: 100%
+  height: 1px
+  .tile-timer-fill
+    background-color: #c30000
+    height: 100%
+    width: 0%
+
+//  HOLIDAY
+#holiday
+  background-image: url("../../images/backgrounds_optimized/DSC_0293.jpg")
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  background-position: center
+
+  p
+    text-shadow: #080808 1px 1px 2px
+
+
+//  MEDIA
+#media
+  border-top: 20px solid #ffffff
+.media-wrapper
+  height: 100%
+  overflow: hidden
+  position: relative
+  img
+    position: absolute
+.media-menu
+  position: absolute
+  height: 100%
+  width: 200px
+  background-color: #ffffff
+  li:first-child
+    border-top: 1px solid #d9dde5
+  li
+    height: 50px
+    width: 100%
+    border-bottom: 1px solid #d9dde5
+    text-align: center
+    display: table
+    a
+      display: table-cell
+      vertical-align: middle
+      color: #000000
+
+
+//  CONTACT
+#contact
+  border-top: 20px solid #ffffff
+  border-bottom: 20px solid #ffffff
+  .form-control
+    border-radius: 0px
+  .btn
+    background-color: darkgray
+    border-color: lightgray
+  .btn:hover
+    background-color: #c30000
+    border-color: #c12e2a
+
+
+// MY FORM BOILER
+.contact-form
+  background-color: #ffffff
+  padding-right: 0
+  padding-left: 10px
+  min-height: 512px
+  form
+    position: relative
+    margin-top: 10px
+  .tag-line
+    border-top: 1px solid #d9dde5
+    text-align: center
+    height: 20px
+    text-transform: uppercase
+    span
+      position: relative
+      display: inline-block
+      top: -10px
+      background: #ffffff
+      padding: 0 15px
+  .frm-row
+    display: inline-block
+    padding-bottom: 20px
+    width: 100%
+    .col-md-6
+      min-height: 1px
+      position: relative
+  .frm-footer
+    display: inline-block
+    width: 100%
+.maps
+  padding-right: 10px
+  padding-left: 0
+
+
+//  FOOTER
+footer
+  padding: 50px 0 10px 0
+  background-color: #ffffff
+  border-top: 1px solid darkgrey
+  small
+    color: #bbbbbb
+    a
+      color: #bbbbbb
+
+
+
+@media screen and (max-width: 768px)
+  .banner-img
+    width: 100%
+    height: auto
+  .navbar-nav
+
+@media screen and (min-width: 768px)
+  .banner-img
+    height: 60%
+    width: auto
+
+@media screen and (max-width: 992px)
+  .middle
+    border-left: none
+    border-right: none
+    border-bottom: 1px solid darkgray
+    border-top: 1px solid darkgray
+
+  .contact-form
+    padding-left: 0
+    padding-top: 20px
+  .maps
+    padding-right: 0
+
+@media screen and (min-width: 992px)
+
+
+@media screen and (min-width: 1200px)
+  #intro
+    background-position: top
+  #lessons
+    background-position: top
+  #holiday
+    background-position: top
+  .banner-img
+    height: 100%
+    width: auto
