@@ -5,7 +5,7 @@
             <div id="map-canvas"></div>
         </div>
 
-        <!-- Contact Form Hoi hoi -->
+        <!-- Contact Form -->
         <div class="col-md-6 contact-form">
             <form method="post" name="contactform" action="emailForm.php">
                 <div class="tag-line">
