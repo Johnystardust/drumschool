@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+    // FlexSlider Plugin
+    $('.flexslider').flexslider({
+        animation: "slide",
+        directionNav: false
+    });
+
+
     var windowWidth = $(document).width();
 
     // Menu Scroll Function
@@ -14,14 +21,14 @@ $(document).ready(function(){
     // Set Wrappers Height
     var windowHeight = $(window).height();
 
-    $('#intro').find('.intro-wrapper').css("height", windowHeight);
+    $('#intro').css("height", windowHeight);
     $('#lessons').css("height", windowHeight);
     $('#holiday').css("height", windowHeight);
 
     $(window).resize(function() {
         windowHeight = $(window).height();
 
-        $('#intro').find('.intro-wrapper').css("height", windowHeight);
+        $('#intro').css("height", windowHeight);
         $('#lessons').css("height", windowHeight);
         $('#holiday').css("height", windowHeight);
     });
@@ -65,14 +72,16 @@ $(document).ready(function(){
     });
 
     // Menu Scroll To Element
-    $('a[href*=#]').click(function (e) {
+    $('.nav').find('a[href*=#]').click(function (e) {
         e.preventDefault();
 
-        var target = $(this).attr('href');
-        var navHeight = $('nav').height();
-        var scrollTo = $(target).offset().top - navHeight - menu_fixed;
+        var target      = $(this).attr('href');
+        var navHeight   = $('nav').height();
+        var scrollTo    = $(target).offset().top - navHeight - menu_fixed;
 
         $('html,body').animate({'scrollTop': scrollTo }, 500);
+
+        return false;
     });
 
     // Banner Menu Function

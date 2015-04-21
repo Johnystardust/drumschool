@@ -1,5 +1,5 @@
 <div id="contact" class="container-fluid white">
-    <div class="row no-margin">
+    <div class="row">
         <!-- Google Maps -->
         <div class="col-md-6 maps">
             <div id="map-canvas"></div>

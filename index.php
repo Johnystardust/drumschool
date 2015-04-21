@@ -21,6 +21,10 @@
     <link rel="stylesheet" type="text/css" href="includes/bootstrap/css/bootstrap.min.css"/>
     <script src="includes/bootstrap/js/bootstrap.js"></script>
 
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="includes/FlexSlider/flexslider.css"/>
+    <script src="includes/FlexSlider/jquery.flexslider.js"></script>
+
     <!-- Maps -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 
