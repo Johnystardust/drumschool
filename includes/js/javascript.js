@@ -6,6 +6,19 @@ $(document).ready(function(){
         directionNav: false
     });
 
+    // Banner li height Fix
+    var evenSliderHeight = function(slideContainer, slideItem) {
+        var slider_height = 0;
+        var $slider_slide = $(slideContainer).find(slideItem);
+        $slider_slide.each(function() {
+            var __height = $(this).outerHeight(true);
+            if ( slider_height < __height ) {
+                slider_height = __height;
+            }
+        });
+        $slider_slide.css('min-height', slider_height);
+    };
+    evenSliderHeight('.flexslider', '.slide');
 
     var windowWidth = $(document).width();
 
