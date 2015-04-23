@@ -13,8 +13,8 @@
                         </div>
                     </li>
                     <li class="slide">
-                        <div class="banner-text text-center slide">
-                            <h1 class="no-margin">Drumlessen & coaching</h1>
+                        <div class="banner-img text-center slide">
+                            <img src="images/bannerdrumschooltext.png" width="100%" />
                         </div>
                     </li>
                 </ul>
