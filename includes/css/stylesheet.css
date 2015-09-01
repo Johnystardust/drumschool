@@ -111,7 +111,7 @@ nav {
     color: #c30000; }
 
 #intro {
-  background-image: url("../../images/backgrounds_optimized/DSC_0230.jpg");
+  background-image: url("../../images/backgrounds_optimized/drumschool.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -281,9 +281,6 @@ footer {
   .maps {
     padding-right: 0; } }
 @media screen and (min-width: 1200px) {
-  #intro {
-    background-position: top; }
-
   #lessons {
     background-position: top; }
 

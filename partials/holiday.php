@@ -6,19 +6,19 @@
             <p>
                 <b>Zeewolde:</b>
                 <br/>
-                Herfstvakantie: 18 okt 2014 t/m 26 okt 2014<br/>
-                Kerstvakantie: 20 dec 2014 t/m 4 jan 2015<br/>
-                Voorjaarsvakantie: 2 mei 2015 t/m 10 mei 2015<br/>
-                Meivakantie: 2 mei 2015 t/m 10 mei 2015<br/>
-                Zomervakantie: 11 jul 2015 t/m 23 aug 2015<br/>
+                Herfstvakantie: 17 oktober 2015 t/m 25 oktober 2015<br/>
+                Kerstvakantie: 19 december 2015 t/m 3 januari 2016<br/>
+                Voorjaarsvakantie: 20 februari 2016 t/m 28 februari 2016<br/>
+                Meivakantie: 30 april 2016 t/m 8 mei 2016<br/>
+                Zomervakantie: 9 juli 2016 t/m 21 augustus 2016<br/>
                 <br/>
                 <b>Huizen:</b>
                 <br/>
-                Herfstvakantie: 11 okt 2014 t/m 19 okt 2014<br/>
-                Kerstvakantie: 20 dec 2014 t/m 4 jan 2015<br/>
-                Voorjaarsvakantie: 21 feb 2015 t/m 1 mrt 2015<br/>
-                Meivakantie: 2 mei 2015 t/m 10 mei 2015<br/>
-                Zomervakantie: 4 jul 2015 t/m 16 aug 2015<br/>
+                Herfstvakantie: 17 okt 2015 t/m 25 okt 2015<br/>
+                Kerstvakantie: 19 dec 2015 t/m 3 jan 2016<br/>
+                Voorjaarsvakantie: 27 feb 2016 t/m 6 mrt 2016<br/>
+                Meivakantie: 30 apr 2016 t/m 8 mei 2016<br/>
+                Zomervakantie: 16 jul 2016 t/m 28 aug 2016<br/>
             </p>
         </div>
     </div>
