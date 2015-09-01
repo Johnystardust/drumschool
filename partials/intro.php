@@ -5,14 +5,16 @@
 
             <div class="flexslider">
                 <ul class="slides">
-                    <li>
-                        <div class="banner-img">
-                            <img src="images/LogoDrumschoolOriginalWhite.png" width="100%" />
+                    <li class="slide">
+                        <div class="banner-img slide">
+                            <div class="banner-img-wrapper">
+                                <img src="images/LogoDrumschoolOriginalWhite.png" width="100%" />
+                            </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="banner-text text-center">
-                            <h1>Drumlessen & coaching</h1>
+                    <li class="slide">
+                        <div class="banner-img text-center slide">
+                            <img src="images/bannerdrumschooltext.png" width="100%" />
                         </div>
                     </li>
                 </ul>

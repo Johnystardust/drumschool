@@ -1,26 +1,32 @@
 $(document).ready(function(){
 
+    $('#scroll-up').hide();
+
+    var menu_fixed = 65;
+    var windowWidth = $(document).width();
+    var windowHeight = $(window).height();
+
     // FlexSlider Plugin
     $('.flexslider').flexslider({
         animation: "slide",
         directionNav: false
     });
 
-
-    var windowWidth = $(document).width();
-
-    // Menu Scroll Function
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 0) {
-            $('nav').addClass('fixed');
-        } else {
-            $('nav').removeClass('fixed');
-        }
-    });
+    // Banner li height Fix
+    //var evenSliderHeight = function(slideContainer, slideItem) {
+    //    var slider_height = 0;
+    //    var $slider_slide = $(slideContainer).find(slideItem);
+    //    $slider_slide.each(function() {
+    //        var __height = $(this).outerHeight(true);
+    //        if ( slider_height < __height ) {
+    //            slider_height = __height;
+    //        }
+    //    });
+    //    $slider_slide.css('min-height', slider_height);
+    //};
+    //evenSliderHeight('.flexslider', '.slide');
 
     // Set Wrappers Height
-    var windowHeight = $(window).height();
-
     $('#intro').css("height", windowHeight);
     $('#lessons').css("height", windowHeight);
     $('#holiday').css("height", windowHeight);
@@ -33,7 +39,6 @@ $(document).ready(function(){
         $('#holiday').css("height", windowHeight);
     });
 
-
     // Scroll Down Function
     var scrollTop       = $(window).scrollTop();
     var elementOffset   = $('#lessons').offset().top;
@@ -44,26 +49,22 @@ $(document).ready(function(){
         return false
     });
 
-    // Scroll Up Fade In/Out
-    $('#scroll-up').hide();
-
     $(window).scroll(function(){
+        // Menu Scroll Function
+        if ($(this).scrollTop() > 0) {
+            $('nav').addClass('fixed');
+        } else {
+            $('nav').removeClass('fixed');
+        }
+
+        // Scroll Up Fade In/Out
         if($(this).scrollTop() < 100){
             $('#scroll-up').fadeOut();
         } else {
             $('#scroll-up').fadeIn();
         }
-    });
-    // Scroll Up Function
-    $('#scroll-up').click(function(){
-        $('html, body').animate({ scrollTop: 0 }, 600);
-        return false
-    });
 
-    // Determine If Nav Is Fixed Or Relative
-    var menu_fixed = 65;
-
-    $(window).scroll(function(){
+        // Determine If Nav Is Fixed Or Relative
         if($(this).scrollTop() > 0){
             menu_fixed = 0;
         } else {
@@ -71,8 +72,14 @@ $(document).ready(function(){
         }
     });
 
+    // Scroll Up Function
+    $('#scroll-up').click(function(){
+        $('html, body').animate({ scrollTop: 0 }, 600);
+        return false
+    });
+
     // Menu Scroll To Element
-    $('.nav').find('a[href*=#]').click(function (e) {
+    $('nav').find('a[href*=#]').click(function (e) {
         e.preventDefault();
 
         var target      = $(this).attr('href');
@@ -80,13 +87,6 @@ $(document).ready(function(){
         var scrollTo    = $(target).offset().top - navHeight - menu_fixed;
 
         $('html,body').animate({'scrollTop': scrollTo }, 500);
-
-        return false;
-    });
-
-    // Banner Menu Function
-    $('.banner-button-2').click(function(){
-
         return false;
     });
 
